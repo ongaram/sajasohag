@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>사자소학</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <script defer="defer" src="main.js"></script>
+
+    <script defer="defer" src="sidebar.js"></script>
+
+    <script defer src="showhide.js"></script>
+
+</head>
+
+<body>
+
+    <div class="title">
+        <div class="title-text">해 설</div>
+    </div>
+
+    <div class="all-content">
+
+        <div class="number">1번</div>
+            <div class="content">
+                스승(師) 섬기기를 부모(父母)님 섬기듯이 하고, 반드시 공손(恭遜)하게 공경(恭敬)해야 하며, 또한 존경(尊敬)해야 합니다.
+            </div>
+
+        <div class="number">2번</div>
+            <div class="content">
+                선생(先生)님의 가르침을 받아들이고, 제자(弟子)들은 이것들을 즉시(卽時) 본받아 실행(實行)해야 합니다.
+            </div>
+
+        <div class="number">3번</div>
+            <div class="content">
+                아침(朝)에 일찍 일어나고 밤(夕)에 늦게 잘 정도(程度)로 독서(讀書)를 게으르게(慵) 하지 않고, 부지런하게(勤) 열심히 해야 합니다.
+            </div>
+
+        <div class="number">4번</div>
+            <div class="content">
+                최선(最善)을 다하여 부지런히(勤) 공부(工夫)하면, 부모(父母)님께서 매우 기뻐(喜)하게 됩니다.
+            </div>
+
+        <div class="number">5번</div>
+            <div class="content">
+                비로소 처음(始)으로 문자(文字)를 습득(習得)하게 되면, 글자(字)의 획(劃)을 바르고 반듯하게 쓰는 연습(練習)을 해야 합니다.
+            </div>
+
+        <div class="number">6번</div>
+            <div class="content">
+                서책(書冊)이 어지럽게 흩어져 있으면, 매번(每番) 반드시 가지런히 정리정돈(整理整頓)해야 합니다.
+            </div>
+
+        <div class="number">7번</div>
+            <div class="content">
+                능(能)히 부모(父母)님에게 효도(孝道)하고, 능(能)히 어른들을 공경(恭敬)할 수 있게 된 것이 스승(師)의 은혜(恩惠)가 아닌 것이 없습니다.
+            </div>
+
+        <div class="number">8번</div>
+            <div class="content">
+                무릇 능(能)히 알고 능(能)히 행(行)하는 모든 것을 하나도 빠짐없이 스승(師)의 공로(功勞)나 공적(功績)이 아닌 것을 찾을 수 없습니다.
+            </div>
+
+    </div>
+
+    <button class="handlerBtn" value="night" onclick="nightDayHandler(this);">
+        <img class="color" src="chido.svg" >
+    </button>
+
+    <div class="sidebar">
+
+        <button class="sidebarBtn">
+            <span></span>
+        </button>
+
+        <div class="sidebarAll">
+
+            <button class="sidebarBtn2">
+                <a href="bigcontents.html">
+                    <img class="sidebarBtnImage2" src="backButton.svg" style="width: 125px; height: 125px;">
+                </a>
+            </button>
+            
+            <div class="menuTitle">사 자 소 학</div>
+        
+            <div class="menu-flex">
+
+                <ul>
+                    <li class="btn"><span>1. 효행편</span></li>
+                        <div class="smallContents">
+                            <li><a href="chido1-1.html">원문</a></li>
+                            <li><a href="chido1-2.html">해설</a></li>
+                        </div>
+        
+                    <li class="btn"><span>2. 충효편</span></li>
+                        <div class="smallContents">
+                            <li><a href="chido2-1.html">원문</a></li>
+                            <li><a href="chido2-2.html">해설</a></li>
+                        </div>
+        
+                    <li class="btn"><span>3. 제가편</span></li>
+                        <div class="smallContents">
+                            <li><a href="chido3-1.html">원문</a></li>
+                            <li><a href="chido3-2.html">해설</a></li>
+                        </div>
+        
+                    <li class="btn"><span>4. 형제편</span></li>
+                        <div class="smallContents">
+                            <li><a href="chido4-1.html">원문</a></li>
+                            <li><a href="chido4-2.html">해설</a></li>
+                        </div>
+        
+                    <li class="btn"><span>5. 사제편</span></li>
+                        <div class="smallContents">
+                            <li><a href="chido5-1.html">원문</a></li>
+                            <li><a href="chido5-2.html">해설</a></li>
+                        </div>
+        
+                    <li class="btn"><span>6. 경장편</span></li>
+                        <div class="smallContents">
+                            <li><a href="chido6-1.html">원문</a></li>
+                            <li><a href="chido6-2.html">해설</a></li>
+                        </div>
+        
+                    <li class="btn"><span>7. 붕우편</span></li>
+                        <div class="smallContents">
+                            <li><a href="chido7-1.html">원문</a></li>
+                            <li><a href="chido7-2.html">해설</a></li>
+                        </div>
+        
+                    <li class="btn"><span>8. 수신편</span></li>
+                        <div class="smallContents">
+                            <li><a href="chido8-1.html">원문</a></li>
+                            <li><a href="chido8-2.html">해설</a></li>
+                        </div>  
+                        
+                </ul>
+                    
+            </div>
+
+        </div> 
+
+    </div>
+
+</body>
+
+</html>
